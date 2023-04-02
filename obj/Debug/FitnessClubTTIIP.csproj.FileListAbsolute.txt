@@ -22,3 +22,4 @@ C:\Users\tvc\source\repos\FitnessClubTTIIP\obj\Debug\FitnessClubTTIIP.exe
 C:\Users\tvc\source\repos\FitnessClubTTIIP\obj\Debug\FitnessClubTTIIP.pdb
 C:\Users\tvc\source\repos\FitnessClubTTIIP\obj\Debug\FitnessClubTTIIP.Form1.resources
 C:\Users\tvc\source\repos\FitnessClubTTIIP\obj\Debug\FitnessClubTTIIP.FormFitness.resources
+C:\Users\tvc\source\repos\FitnessClubTTIIP\obj\Debug\FitnessClubTTIIP.Vhod.resources
