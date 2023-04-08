@@ -23,7 +23,9 @@ MEVN (MongoDB, Express, Vue.js, Node.js), использующее TypeScript, T
 <p>Перейдите в папку с проектом: cd fitness-club</p>
 <p>Установите зависимости: npm install</p>
 <p>Запустите сервер: npm run serve</p>
-<h3>Откройте приложение в браузере по адресу<a href="http://localhost:8080">http://localhost:8080</a><h3>
+<h3>Откройте приложение в браузере по адресу <a href="http://localhost:8080">http://localhost:8080</a><h3>
+
+  ![image](https://user-images.githubusercontent.com/103760832/230729441-0288f80e-42f5-449f-9e49-8d5c3156898e.png)
 
 ## Project Setup
 
