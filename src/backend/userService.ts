@@ -1,3 +1,5 @@
+import type { IUser } from './userModel';
+import type { Document } from 'mongoose';
 import userModel from './userModel';
 
 export const getDataFromDBService = (): Promise<any> => {
@@ -18,28 +20,16 @@ export const createUserDBService = (userDetails: any): Promise<any> => {
     userModelData.name = userDetails.name;
     userModelData.address = userDetails.address;
     userModelData.phone = userDetails.phone;
-    userModelData.save((error: any, result: any) => {
-      if (error) {
-        reject(false);
-      } else {
-        resolve(true);
-      }
-    });
   });
 };
 
-export const updateUserDBService = (id: string, userDetails: any): Promise<any> => {
+
+export const updateUserDBService = (id: string, userDetails: any): Promise<Document<any, any, IUser> | null> => {
   console.log(userDetails);
-  return new Promise((resolve, reject) => {
-    userModel.findByIdAndUpdate(id, userDetails, (error: any, result: any) => {
-      if (error) {
-        reject(false);
-      } else {
-        resolve(result);
-      }
-    });
-  });
+  return userModel.findByIdAndUpdate(id, userDetails, { new: true }).exec();
 };
+
+
 
 export const removeUserDBService = (id: string): Promise<any> => {
   return new Promise((resolve, reject) => {
@@ -52,3 +42,9 @@ export const removeUserDBService = (id: string): Promise<any> => {
     });
   });
 };
+export const userService ={
+  getDataFromDBService,
+  createUserDBService,
+  updateUserDBService,
+  removeUserDBService
+}

@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import userService from './userService';
+import {userService} from './userService';
 
 export const getDataConntrollerfn = async (req: Request, res: Response): Promise<void> => {
     const empolyee = await userService.getDataFromDBService();
@@ -37,3 +37,4 @@ export const deleteUserController = async (req: Request, res: Response): Promise
         res.send({ "status": false, "message": "User Delete Failed" });
     }
 }
+

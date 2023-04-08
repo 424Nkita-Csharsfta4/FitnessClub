@@ -1,31 +1,25 @@
 # fitnessweb
 
-<h1>"Фитнес клуб"</h1>
-<h3>Проект "Фитнес клуб" - это веб-приложение, созданное на стеке технологий</h3>
-MEVN (MongoDB, Express, Vue.js, Node.js), использующее TypeScript, Tailwind CSS и Axios.</h3>
-<p>Приложение предоставляет возможность зарегистрироваться, 
-авторизоваться и использовать CRUD-функциональность для управления данными пользователей и тренировок в фитнес клубе.</p>
+This template should help get you started developing with Vue 3 in Vite.
 
-<h3>В проекте использованы элементы аниме стиля, которые придают приложению уникальный вид и отличают его от других фитнес-приложений.</h3>
+## Recommended IDE Setup
 
-<h1>Плюсы</h1>
-<p>Регистрация и авторизация: пользователи могут зарегистрироваться и войти в свои аккаунты с помощью зашифрованных паролей.</p>
-<p>CRUD-функциональность: пользователи могут создавать, читать, обновлять и удалять данные о своих тренировках и профиле пользователя.</p>
-<p>Визуальный дизайн: использование Tailwind CSS и аниме стиля придают приложению привлекательный внешний вид.</p>
-<p>TypeScript: использование TypeScript позволяет избежать ошибок на этапе компиляции и улучшить читаемость кода.</p>
-<p>Axios: использование Axios упрощает отправку и обработку запросов к серверу.</p>
-<h1>Минусы</h1>
-<p>Нет функциональности для оплаты членства в фитнес клубе.</p>
-<p>Нет функциональности для просмотра расписания занятий и резервирования мест на занятиях.</p>
-<p>Может понадобиться дополнительное время для освоения стека технологий MEVN и аниме стиля, если вы не знакомы с ними.</p>
-Установка и запуск
-<p>Склонируйте репозиторий: git clone https://github.com/your_username/fitness-club.git</p>
-<p>Перейдите в папку с проектом: cd fitness-club</p>
-<p>Установите зависимости: npm install</p>
-<p>Запустите сервер: npm run serve</p>
-<h3>Откройте приложение в браузере по адресу <a href="http://localhost:8080">http://localhost:8080</a><h3>
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-  ![image](https://user-images.githubusercontent.com/103760832/230729441-0288f80e-42f5-449f-9e49-8d5c3156898e.png)
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
