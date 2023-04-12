@@ -1,24 +1,4 @@
-<p>├── src/
-│   ├── controllers/
-│   │   ├── base-controller.ts
-│   │   ├── create-controller.ts
-│   │   ├── delete-controller.ts
-│   │   ├── read-controller.ts
-│   │   └── update-controller.ts
-│   ├── models/
-│   │   ├── base-model.ts
-│   │   └── user-model.ts
-│   ├── types/
-│   │   └── bot-types.ts
-│   ├── utils/
-│   │   └── telegram-bot-utils.ts
-│   ├── app.ts
-│   ├── config.ts
-│   └── index.ts
-├── node_modules/
-├── package.json
-├── tsconfig.json
-</p>
+![image](https://user-images.githubusercontent.com/103760832/231411094-a425de87-4f00-4abf-b124-835f2880ade8.png)
 
 
 <p>src/controllers/: Каталог, содержащий контроллеры для различных операций CRUD.</p>
