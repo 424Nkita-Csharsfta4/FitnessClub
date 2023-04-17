@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/103760832/231411094-a425de87-4f00-4abf-b124-835f2880ade8.png)
 
+![image](https://user-images.githubusercontent.com/103760832/232406914-1598efd9-f4fe-4a33-8977-73e6a152b36e.png)
+
 
 <p>src/controllers/: Каталог, содержащий контроллеры для различных операций CRUD.</p>
 <p>src/controllers/base-controller.ts: Базовый класс контроллера с распространенными методами, такими как sendMessage, parseCommand и т.д.</p>
