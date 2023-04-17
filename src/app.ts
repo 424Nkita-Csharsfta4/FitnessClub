@@ -9,7 +9,7 @@ import { UpdateController } from './controllers/update-controller';
 const bot = new Telegraf(BOT_TOKEN);
 
 // создайте модель User, передав конфигурационный объект в качестве аргумента
-const userModel = new User({});
+const userModel = new User({ name: 'John', age: 30, email: 'john@example.com' });
 
 const createController = new CreateController();
 const readController = new ReadController();

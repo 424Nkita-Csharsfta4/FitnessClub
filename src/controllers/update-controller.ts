@@ -17,7 +17,14 @@ export class UpdateController {
   }
 
   async updateHandler(ctx: Context): Promise<void> {
-    const { id, name } = ctx.message?.text?.split(' ')?.slice(1) ?? {};
+    const message = ctx.message;
+
+    if (!message || !message.text) {
+      await ctx.reply('Сообщение не содержит текста');
+      return;
+    }
+
+    const { id, name } = message.text?.split(' ')?.slice(1) ?? {};
 
     if (!id || !name) {
       await ctx.reply('Введите идентификатор пользователя и его новое имя через пробел');
@@ -37,5 +44,6 @@ export class UpdateController {
     } catch (err) {
       await ctx.reply(`Ошибка: ${err.message}`);
     }
-  }
+}
+
 }
