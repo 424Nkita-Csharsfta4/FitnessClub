@@ -1,34 +1,40 @@
-<h1>CRUD Fitness Club</h1>
-<h3>CRUD Fitness Club</h3><p>это приложение для управления клиентами и тренировочными планами в фитнес клубе.</p>
-<p>Оно позволяет создавать, просматривать, обновлять и удалять информацию о клиентах, их контактных данных, а также тренировочных планах и сессиях.</p>
+# fitnessweb
 
-<p>Приложение предоставляет простой и интуитивно понятный интерфейс пользователя,
-где можно быстро добавлять и редактировать данные клиентов и тренировочные планы.</p>
-<p>CRUD Fitness Club разработан с использованием языка программирования C# и технологий .NET Framework.</p>
-<p>Он использует реляционную базу данных для хранения и управления информацией о клиентах и тренировочных планах.</p>
+This template should help get you started developing with Vue 3 in Vite.
 
-<h2>Возможности</h2>
-<li>Создание, просмотр, обновление и удаление информации о клиентах</li>
-<li>Управление контактными данными клиентов</li>
-<li>Создание и управление тренировочными планами и сессиями</li>
-<li>Простой и интуитивно понятный интерфейс пользователя</li>
-<h3>Использование</h3>
-<p>CRUD Fitness Club может быть полезен для фитнес клубов,
-персональных тренеров, тренажерных залов и других организаций,
-которые занимаются проведением тренировок и поддержанием физической формы клиентов.</p>
+## Recommended IDE Setup
 
-<h3>Технологии</h3>
-<p>CRUD Fitness Club разработан с использованием языка программирования C# и технологий .NET Framework.</p>
-<p>Он использует реляционную базу данных для хранения и управления информацией о клиентах и тренировочных планах.</p>
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-<h3>Вклад</h3>
-<p>Мы приветствуем любой вклад и предложения улучшений.</p> 
-<p>Чтобы внести свой вклад, просто создайте ветку и создайте запрос на включение изменений.</p>
+## Type Support for `.vue` Imports in TS
 
-<h3>Как выглядит ПО</h3>
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-![image](https://user-images.githubusercontent.com/103760832/229342160-279e7de8-7637-4cfd-896d-7a20c0072873.png)
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-![image](https://user-images.githubusercontent.com/103760832/229342178-706f4b3f-42e7-4d25-89d3-20e5699007c2.png)
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-<h3>Вскором времени будет WEB версия</h3>
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
