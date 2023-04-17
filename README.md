@@ -1,34 +1,16 @@
-<h1>CRUD Fitness Club</h1>
-<h3>CRUD Fitness Club</h3><p>это приложение для управления клиентами и тренировочными планами в фитнес клубе.</p>
-<p>Оно позволяет создавать, просматривать, обновлять и удалять информацию о клиентах, их контактных данных, а также тренировочных планах и сессиях.</p>
+# fitness
 
-<p>Приложение предоставляет простой и интуитивно понятный интерфейс пользователя,
-где можно быстро добавлять и редактировать данные клиентов и тренировочные планы.</p>
-<p>CRUD Fitness Club разработан с использованием языка программирования C# и технологий .NET Framework.</p>
-<p>Он использует реляционную базу данных для хранения и управления информацией о клиентах и тренировочных планах.</p>
+A new Flutter project.
 
-<h2>Возможности</h2>
-<li>Создание, просмотр, обновление и удаление информации о клиентах</li>
-<li>Управление контактными данными клиентов</li>
-<li>Создание и управление тренировочными планами и сессиями</li>
-<li>Простой и интуитивно понятный интерфейс пользователя</li>
-<h3>Использование</h3>
-<p>CRUD Fitness Club может быть полезен для фитнес клубов,
-персональных тренеров, тренажерных залов и других организаций,
-которые занимаются проведением тренировок и поддержанием физической формы клиентов.</p>
+## Getting Started
 
-<h3>Технологии</h3>
-<p>CRUD Fitness Club разработан с использованием языка программирования C# и технологий .NET Framework.</p>
-<p>Он использует реляционную базу данных для хранения и управления информацией о клиентах и тренировочных планах.</p>
+This project is a starting point for a Flutter application.
 
-<h3>Вклад</h3>
-<p>Мы приветствуем любой вклад и предложения улучшений.</p> 
-<p>Чтобы внести свой вклад, просто создайте ветку и создайте запрос на включение изменений.</p>
+A few resources to get you started if this is your first Flutter project:
 
-<h3>Как выглядит ПО</h3>
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-![image](https://user-images.githubusercontent.com/103760832/229342160-279e7de8-7637-4cfd-896d-7a20c0072873.png)
-
-![image](https://user-images.githubusercontent.com/103760832/229342178-706f4b3f-42e7-4d25-89d3-20e5699007c2.png)
-
-<h3>Вскором времени будет WEB версия</h3>
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
