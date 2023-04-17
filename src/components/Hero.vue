@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import Card from './Card.vue';
+import Footer from './Footer.vue';
+</script>
 <template>
     <section class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div class="container mx-auto">
@@ -201,7 +205,7 @@
                         <p class="text-body-color mb-12 text-base">
                             Он использует реляционную базу данных для хранения и управления информацией о клиентах и тренировочных планах.
                         </p>
-                        <a href="javascript:void(0)"
+                        <a href="/eror"
                             class="bg-red-200 inline-flex items-center justify-center rounded-lg py-4 px-10 text-center text-base font-normal text-black hover:bg-white ease-in duration-300  lg:px-8 xl:px-10">
                             Записаться
                         </a>
@@ -210,4 +214,6 @@
             </div>
         </div>
     </section>
+    <Card/>
+    <Footer/>
 </template>

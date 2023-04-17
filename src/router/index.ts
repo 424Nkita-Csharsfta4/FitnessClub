@@ -23,6 +23,16 @@ const router = createRouter({
       path: '/lesson',
       name: 'lesson',
       component: () => import('@/components/Models/Lessons.vue')
+    },
+    {
+      path: '/download',
+      name: 'download',
+      component: () => import('../views/Download.vue')
+    },
+    {
+      path: '/eror',
+      name: 'eror',
+      component: () => import('../views/NotFound.vue')
     }
   ]
 })

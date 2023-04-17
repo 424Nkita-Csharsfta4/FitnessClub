@@ -3,7 +3,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <!-- ====== Navbar Section Start -->
 <header class="flex w-full items-center bg-white ">
     <div class="container mx-auto">
       <div class="relative -mx-4 flex items-center justify-between">
@@ -44,6 +43,18 @@ import { RouterLink, RouterView } from 'vue-router'
                     class="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex">
                     Занятия
                   </RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/download"
+                    class="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex">
+                    Скачать приложение
+                  </RouterLink>
+                </li>
+                <li>
+                  <a href="https://t.me/FitnessClubTTIIPBot" target="_blank"
+                    class="text-dark hover:text-primary flex py-2 text-base font-medium lg:ml-12 lg:inline-flex">
+                    Telegram бот
+                </a>
                 </li>
               </ul>
             </nav>

@@ -1,8 +1,9 @@
 import type  { Request, Response } from 'express';
-import cors from 'cors';
 import mongoose, { Document } from 'mongoose';
-import bodyParser from 'body-parser';
+import cors from 'cors';
+import * as bodyParser from 'body-parser';
 import express from 'express';
+
 
 const app = express();
 const port = 3000;
