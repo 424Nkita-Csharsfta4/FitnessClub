@@ -1,0 +1,13 @@
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Registraciya.resources
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ClubMain.resources
+C:\Users\Vladik\source\repos\GachiMuchiFitnessClubMCSPRAVA\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Dobavka.resources
