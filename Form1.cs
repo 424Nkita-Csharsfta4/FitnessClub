@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             var pas = textBox2.Text;
             SqlDataAdapter sqladapter = new SqlDataAdapter();
             DataTable table = new DataTable();
-            string Query = $"SELECT id, namee, podpis, password FROM clients WHERE namee = '{namee}' AND password = '{pas}'";
+            string Query = $"SELECT iid, namee, podpis, password FROM users WHERE namee = '{namee}' AND password = '{pas}'";
             SqlCommand command = new SqlCommand(Query, BD.GetConnection());
 
             sqladapter.SelectCommand = command;
@@ -50,6 +50,11 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show($"Такого имени в БД  нет", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

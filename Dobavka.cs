@@ -45,5 +45,10 @@ namespace WindowsFormsApp1
 
             BD.closeConnection();
         }
+
+        private void Dobavka_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

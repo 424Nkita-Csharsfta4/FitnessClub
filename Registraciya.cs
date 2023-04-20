@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             var name = textBox1.Text;
             var password = textBox2.Text;
             var podpis = textBox3.Text;
-            string Query = $"INSERT INTO clients (namee,podpis,password) VALUES ('{name}', '{password}','{podpis}')";
+            string Query = $"INSERT INTO users (namee,podpis,password) VALUES ('{name}', '{password}','{podpis}')";
 
             SqlCommand command = new SqlCommand(Query, BD.GetConnection());
 
@@ -81,6 +81,11 @@ namespace WindowsFormsApp1
             this.Hide();
             vhod.ShowDialog();
             this.Show();
+        }
+
+        private void Registraciya_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

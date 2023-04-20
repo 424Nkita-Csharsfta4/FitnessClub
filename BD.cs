@@ -11,7 +11,7 @@ namespace WindowsFormsApp1
     class BD
     {
 
-        SqlConnection SQL = new SqlConnection(@"Data Source=DESKTOP-081C48G;Initial Catalog=win;Integrated Security=True");
+        SqlConnection SQL = new SqlConnection(@"Data Source=KAB36-12-ПК\SQLEXPRESS;Initial Catalog=win;Integrated Security=True");
         public void openConnection()
         {
             if (SQL.State == System.Data.ConnectionState.Closed)
