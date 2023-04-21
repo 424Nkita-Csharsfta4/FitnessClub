@@ -27,6 +27,12 @@
 
 <h3>Как выглядит ПО</h3>
 
-![image](https://user-images.githubusercontent.com/103760832/229342160-279e7de8-7637-4cfd-896d-7a20c0072873.png)
+![image](https://user-images.githubusercontent.com/103760832/233641511-6614b54c-e3d6-4e5f-975f-71185335dd39.png)
 
-![image](https://user-images.githubusercontent.com/103760832/229342178-706f4b3f-42e7-4d25-89d3-20e5699007c2.png)
+![image](https://user-images.githubusercontent.com/103760832/233641820-65197ee4-9c32-4cd1-8d09-d2eed98a20d9.png)
+
+![image](https://user-images.githubusercontent.com/103760832/233642224-09fed906-a7c7-427a-8ab9-d1db753994f8.png)
+
+![image](https://user-images.githubusercontent.com/103760832/233642929-672d34b7-d913-4d0d-a3b5-71a8a6f5ba03.png)
+
+
