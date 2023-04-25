@@ -1,9 +1,15 @@
 import { v4 as uuid } from "uuid";
 
+/**
+ * интерфейс для базовой модели, которая имеет свойство id типа string.
+ */
 export interface BaseModel {
   id: string;
 }
 
+/**
+ * @class BaseRepository  которое принимает параметр типа T, расширяющий BaseModel
+ */
 export class BaseRepository<T extends BaseModel> {
   private items: T[] = [];
 

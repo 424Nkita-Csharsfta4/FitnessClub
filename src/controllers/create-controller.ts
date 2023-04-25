@@ -9,12 +9,16 @@ export class CreateController {
   
   static async createNewUser(ctx: Context): Promise<void> {
     try {
-      // Проверяем наличие свойства message и его свойства text
+      /**
+       * Проверяем наличие свойства message и его свойства text
+       */
       if (!ctx.message || (!ctx.message.text && !ctx.message?.text)) {
         throw new Error('Некорректное сообщение');
       }
       
-      // Получаем текст сообщения от пользователя
+      /**
+       * Получаем текст сообщения от пользователя
+       */
       const name: string = ctx.message?.text || '';
 
       // Создаем нового пользователя
@@ -26,11 +30,15 @@ export class CreateController {
       };
       const createdUser: User = await User.create(newUser);
 
-      // Отправляем сообщение пользователю об успешном создании
+      /**
+       * Отправляем сообщение пользователю об успешном создании
+       */
       const successMessage: string = `Новый пользователь ${createdUser.name} успешно создан!`;
       await TelegramBotUtils.sendMessage(ctx, successMessage);
     } catch (error) {
-      // Отправляем сообщение об ошибке, если создание пользователя не удалось
+      /**
+       * Отправляем сообщение об ошибке, если создание пользователя не удалось
+       */
       const errorMessage: string = 'Не удалось создать нового пользователя. Попробуйте еще раз.';
       await TelegramBotUtils.sendMessage(ctx, errorMessage);
     }
