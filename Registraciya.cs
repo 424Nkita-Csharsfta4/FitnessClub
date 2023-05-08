@@ -13,6 +13,9 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
+/// <summary>
+/// Форма регистрации пользователя
+/// </summary>
     public partial class Registraciya : Form
     {
         BD BD = new BD();
@@ -21,7 +24,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+    /// <summary>
+    /// Обработчик нажатия кнопки "Зарегистрироваться"
+    /// </summary>
         private void button1_Click(object sender, EventArgs e)
         {
             var name = textBox1.Text;
@@ -48,7 +53,9 @@ namespace WindowsFormsApp1
             BD.closeConnection();
         }
 
-
+    /// <summary>
+    /// Проверка на наличие уже зарегистрированной анкеты пользователя с введенными данными
+    /// </summary>
         private Boolean check()
         {
             var name = textBox1.Text;
@@ -74,7 +81,9 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-
+    /// <summary>
+    /// Обработчик нажатия на ссылку для возврата к окну авторизации
+    /// </summary>
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form1 vhod = new Form1();
