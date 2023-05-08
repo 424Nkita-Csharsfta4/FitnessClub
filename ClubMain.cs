@@ -12,6 +12,9 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
+///<summary>
+///Перечисление `RowState` для отслеживания состояния строк в таблице (существующая, новая, измененная, измененная-новая, удаленная)
+///</summaey>
     enum RowState
     {
         Existed,
@@ -30,7 +33,9 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-
+///<summary>
+///Создание колонок таблицы
+///</summary>
         private void CreateColumns()
         {
             dataGridView1.Columns.Add("id", "id");
@@ -40,12 +45,16 @@ namespace WindowsFormsApp1
             dataGridView1.Columns.Add("price", "Цена тренировки");
             dataGridView1.Columns.Add("IsNew", String.Empty);
         }
-
+///<summary>
+///Чтение одной строки таблицы из результата SQL-запроса
+///</summary>
         private void ReadSingleRow(DataGridView dgw, IDataRecord record)
         {
             dgw.Rows.Add(record.GetInt32(0), record.GetString(1), record.GetString(2), record.GetDateTime(3), record.GetInt32(4),RowState.ModifiedNew);
         }
-
+///<summary>
+///Обновление данных в таблице
+///</summary>
         private void RefreshDataGrid(DataGridView dgw)
         {
             dgw.Rows.Clear();
@@ -76,7 +85,7 @@ namespace WindowsFormsApp1
             CreateColumns();
             RefreshDataGrid(dataGridView1);
         }
-
+// Обработчик нажатия на ячейку таблицы
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             SelRow = e.RowIndex;
@@ -91,12 +100,12 @@ namespace WindowsFormsApp1
                 textBox5.Text = row.Cells[4].Value.ToString();
             }
         }
-
+// Обработчик нажатия на элемент "Обновить" в ToolStrip
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
             RefreshDataGrid(dataGridView1);
         }
-
+// Обработчик нажатия на элемент "Добавить" в ToolS
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Dobavka dobavka = new Dobavka();
@@ -104,7 +113,7 @@ namespace WindowsFormsApp1
             dobavka.ShowDialog();
             this.Show();
         }
-
+// Удаление выбранной строки таблицы
         private void deleteMethod()
         {
             int index = dataGridView1.CurrentCell.RowIndex;
@@ -119,7 +128,7 @@ namespace WindowsFormsApp1
         }
 
 
-
+// Обновление выбранной строки таблицы
         private void Update()
         {
             BD.openConnection();
